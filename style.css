@@ -1,0 +1,63 @@
+
+body h1{
+     text-align: center;
+     color : black;
+}
+header{ 
+    
+    background-color: lightblue;
+    color: rgb(0, 0, 0);
+    padding: 6px;
+    margin: 6px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+p{
+    color : black;
+    font-size: blue;
+    line-height: 1.6;
+    font-family: arial;
+}
+.about-me{
+    color :rgb(15, 8, 8);
+}
+.myservices{
+ color: rgb(0, 0, 0);
+ font-family: 2opx;
+}
+
+body{
+    background-color:rgb(0, 0, 0) (252,249,249);
+     background-color: rgb(27, 77, 170);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 30px;
+  border: 2px solid rgb(0, 0, 0);
+}
+h2{
+    color:rgb(6, 4, 14);
+    
+}   
+
+nav {  
+    
+    background-color:rgb(0, 0, 0) (252,249,249);
+     background-color: lightblue;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 30px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+section{
+
+    background-color:rgb(0, 0, 0) (252,249,249);
+     background-color: lightblue;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 30px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+
