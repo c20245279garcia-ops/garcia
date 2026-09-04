@@ -1,97 +1,101 @@
-body{
-    text-align : center;
+body {
+    text-align: center;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-nav{
+nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     margin-left: 50px;
     margin-right: 50px;
 }
-nav ul{
-    display:flex;
+
+nav ul {
+    display: flex;
     gap: 20px;
     padding: 0;
     margin: 0;
-
 }
 
-main{
-    display:flex;
-    flex-wrap:wrap;
+main {
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     padding: 50px;
-    margin:50px;
-    max-width: 1200px;
+    margin: 50px;
 }
 
-main section{
+main section {
     flex: 1;
     min-width: 280px;
     border: 2px solid black;
-    padding: 20px;
-}
-form{
-    display: flex;
-    flex-direction:column ;
-    gap:20px;
+    padding: 20px
 }
 
-@media(max-width: 600px){
-    nav{
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    nav {
         flex-direction: column;
-        gap:50px;
+        gap: 15px;
     }
-    nav ul{
+
+    nav ul {
         flex-direction: column;
         text-align: center;
     }
-    main{
+
+    main {
         padding: 15px;
-        margin:10px;
+        margin: 10px;
         gap: 20px;
     }
-    main section{
+
+    main section {
         flex: 1 1 100%;
         min-width: 0;
         padding: 15px;
     }
 
-
-@media(max-width:  600px){
-    h1{
+    h1 {
         font-size: 100px;
-        color:red;
+        color: red;
     }
 }
-}
-@media(max-width: 768px){
-    h2{
+
+@media (max-width: 768px) {
+    h2 {
         font-size: 48px;
-        color: blue; 
+        color: blue;
     }
 }
-nav a{
-    transition: color 0.5 ease;
+
+nav a {
+    transition: color 0.5s ease;
 }
-nav a:hover{
+
+nav a:hover {
     color: pink;
 }
-button{
-    transition: background-color 1s ease;
+
+button {
     background-color: black;
-    color:white;
+    color: white;
+    padding: 12px 24px;
+    border: none;
     border-radius: 10px;
-    border : none;
-    padding : 12px 24px;
+    transition: background-color 1s ease;
 }
 
-button:hover{
-background-color: pink;
-color: black;
+button:hover {
+    background-color: pink;
+    color: black;
 }
